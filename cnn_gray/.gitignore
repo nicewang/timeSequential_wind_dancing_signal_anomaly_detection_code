@@ -1,0 +1,9 @@
+.idea
+**/*.local
+**/*.txt
+**/loss_acc
+**/model
+**/test_set
+**/train_set
+**/*.png
+**/validate_set
