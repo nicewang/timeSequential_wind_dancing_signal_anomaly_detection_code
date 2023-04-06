@@ -1,2 +1,5 @@
-# timeSequential_wind_dancing_signal_anomaly_detection_code
-master's thesis at uestc, reorganized at 2023
+# Time-Sequential Wind Dancing Signal Anomaly Detection
+
+* Master's thesis at uestc
+* Reorganized at 2023
+* Python source code
