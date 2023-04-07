@@ -1,0 +1,17 @@
+.idea
+**/*.local
+**/*.txt
+**/*.png
+**/*.jpg
+**/Corporate-Consumer-Contact-API-Documentation
+**/*.csv
+**/model
+**/model1
+**/model-copy
+**/Buiding_ML_System_with_Python
+**/isodata
+**/MeanShift_py
+**/jianchuanshibie
+**/self_learning
+**/tan-clustering
+**/word2vec
