@@ -1,0 +1,6 @@
+.idea
+**/*.local
+**/*.txt
+**/*.png
+**/*.jpg
+**/*.csv
