@@ -1,7 +1,7 @@
 import numpy as np
 
-data = np.genfromtxt("train_set_new/training data.txt")
-label = np.genfromtxt("train_set_new/labels.txt")
+data = np.genfromtxt("train_set/training data.txt")
+label = np.genfromtxt("train_set/labels.txt")
 
 print(data.shape)
 print(label.shape)

@@ -27,7 +27,7 @@ def getDataLabel(path):
     return data, label
 
 # validation
-# path = 'train_set_new/'
+# path = 'train_set/'
 # data, label = getDataLabel(path)
 # print(data.shape)
 # print(label.shape)

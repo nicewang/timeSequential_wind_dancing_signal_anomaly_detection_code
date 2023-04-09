@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-data = np.genfromtxt("train_set_new/training data.txt")
+data = np.genfromtxt("train_set/training data.txt")
 # print(data.shape)
-labels = np.genfromtxt("train_set_new/labels.txt")
+labels = np.genfromtxt("train_set/labels.txt")
 
 data_origin = []
 data_flip_a = []
@@ -121,5 +121,5 @@ for i in range(abnormal_count*19):
 #     if labels_new[i] == 1:
 #         abnormal_count_new = abnormal_count_new + 1
 # print(abnormal_count_new)
-np.savetxt("train_set_new/training data.txt", data_new)
-np.savetxt("train_set_new/labels.txt", labels_new)
+np.savetxt("train_set/training data.txt", data_new)
+np.savetxt("train_set/labels.txt", labels_new)
