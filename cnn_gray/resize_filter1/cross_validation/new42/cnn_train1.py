@@ -15,8 +15,8 @@ c = 1
 
 model_path = "model/model.ckpt"
 
-data0 = np.genfromtxt("train_set/training data.txt")
-label = np.genfromtxt("train_set/labels.txt")
+data0 = np.genfromtxt("train_set_new/training data.txt")
+label = np.genfromtxt("train_set_new/labels.txt")
 data = []
 for i in range(data0.shape[0]):
     data_tmp = data0[i,:]
