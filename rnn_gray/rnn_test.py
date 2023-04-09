@@ -25,7 +25,7 @@ def get_dataset(path):
     label = label[order]
     return data, label
 
-test_data, test_target = get_dataset('test_set_new/')
+test_data, test_target = get_dataset('test_set/')
 print(test_data.shape)
 print(test_target.shape)
 

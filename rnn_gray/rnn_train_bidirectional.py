@@ -21,7 +21,7 @@ params = AttrDict(
 
 def get_dataset(path):
     # Flatten images into vectors.
-    # path = 'train_set_new/'
+    # path = 'train_set/'
     data,label = getDataLabel(path)
     data = data.reshape(data.shape[:2] + (-1,))
     # One-hot encode labels.
@@ -42,10 +42,10 @@ def get_dataset(path):
     return data, label
 
 # Split into training and test data.
-train_data, train_target = get_dataset('train_set_new/')
+train_data, train_target = get_dataset('train_set/')
 print(train_data.shape)
 print(train_target.shape)
-test_data, test_target = get_dataset('test_set_new/')
+test_data, test_target = get_dataset('test_set/')
 print(test_data.shape)
 print(test_target.shape)
 abnormal_data = []
