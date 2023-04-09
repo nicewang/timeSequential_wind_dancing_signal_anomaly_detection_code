@@ -1,0 +1,12 @@
+.idea
+**/*.txt
+**/chapters/02*
+**/chapters/03*
+**/chapters/04*
+**/chapters/05*
+**/chapters/07*
+**/chapters/08*
+**/errata
+**/img/book_cover.jpg
+**/tensorflowbook-master/README.md
+**/model

@@ -54,5 +54,5 @@ for i in range(label_new.shape[0]):
         count = count + 1
 print(count)
 
-np.savetxt("train_set/training data.txt", data_new)
-np.savetxt("train_set/labels.txt", label_new)
+np.savetxt("train_set_new/training data.txt", data_new)
+np.savetxt("train_set_new/labels.txt", label_new)
